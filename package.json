@@ -1,7 +1,7 @@
 {
   "name": "pali",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple API that fetches list of meals from themealDb.com and returns the meal with least number of ingredient",
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node ./dist/index.js",
@@ -11,6 +11,10 @@
   },
   "author": "Peter Adeoye",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwizard2011/mealsDB.git"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cwizard2011/mealsDB.svg?branch=master)](https://travis-ci.org/cwizard2011/mealsDB)
+
 # Meals API
 An API that fetches list of meals from `TheMealDb.com` and returns a meal that requires the least number of ingredient.
 
@@ -27,4 +29,8 @@ Endpoints:
 `GET /api/v1/food`
 
 The endpoint can be accessed [**here**](https://mealsdbapp.herokuapp.com/api/v1/food)
+
+## Running test
+
+- Run the command `npm test`
 
